@@ -13,7 +13,7 @@ neovim only.
 vim.o.background = 'dark' -- dark mode only
 
 require('edgeme').setup {
-    style = 'default', -- only supporte 'default' or 'aura'
+    style = 'default', -- only support 'default' or 'aura'
     -- turn italic on/off
     italic = {
         enable = true, -- set to false will disable all italics below

@@ -2,7 +2,7 @@ local config = {}
 
 -- default options
 config.options = {
-    style = 'default', -- only supporte 'default' or 'aura'
+    style = 'default', -- only support 'default' or 'aura'
     -- turn italic on/off
     italic = {
         enable = true, -- set to false will disable all italics below

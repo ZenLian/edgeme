@@ -10,8 +10,8 @@ M.load = function()
     if vim.fn.exists("syntax_on") then
         vim.cmd("syntax reset")
     end
-    vim.opt.background = "dark"
-    vim.opt.termguicolors = true
+    -- vim.o.background = "dark"
+    vim.o.termguicolors = true
     vim.g.colors_name = "edgeme"
 
     local util = require('edgeme.util')

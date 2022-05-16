@@ -10,9 +10,15 @@ neovim only.
 ## Configurations
 
 ```lua
-vim.o.background = 'dark' -- dark mode only
+-- specify background, 'dark' or 'light'
+vim.o.background = 'dark'
 
+-- default options
+-- you don't have to call setup() if you're ok with defaults
 require('edgeme').setup {
+    -- choose color styles, depends on vim.o.background
+    -- dark theme: 'default', 'aura', 'neon'
+    -- light theme: 'default'
     style = 'default', -- only support 'default' or 'aura'
     -- turn italic on/off
     italic = {
@@ -23,12 +29,15 @@ require('edgeme').setup {
         parameter = true,
         tags = true, -- tags like html tag names
     },
+    diagnostic = {
+        -- true to enable diagnostic virtual text color
+        colored_virtual_text = false,
+    }
 }
 ```
 
 ## Limitations
 
 - only support true color terminals
-- dark mode only, 2 styles('default' or 'aura') only
 - supported plugins are limited, check [theme.lua](./lua/edgeme/theme.lua)
 

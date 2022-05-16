@@ -478,31 +478,45 @@ M.cmp = {
 
 -- glepnir/lspsaga.nvim
 M.lspsaga = {
-    LspFloatWinBorder             = { fg = palette.bg0, bg = palette.bg0 },
-    LspSagaDiagnosticHeader       = { fg = palette.yellow, bg = palette.none, style = 'bold' },
-    LspSagaCodeActionTitle        = { fg = palette.blue, bg = palette.none, style = 'bold' },
+    LspFloatWinNormal = { bg=palette.bg2 },
+    LspFloatWinBorder             = { fg = palette.bg2, bg = palette.bg2 },
+
+    LspSagaDefPreviewBorder       = { fg = palette.bg2, bg = palette.bg2 },
     DefinitionPreviewTitle        = { fg = palette.purple, bg = palette.none, style = 'bold' },
-    LspSagaDiagnosticBorder       = { 'Yellow' },
-    LspSagaDiagnosticTruncateLine = { 'Yellow' },
-    LspSagaRenameBorder           = { 'Blue' },
-    LspSagaRenamePromptPrefix     = { 'Purple' },
-    LspSagaCodeActionBorder       = { 'Blue' },
-    LspSagaCodeActionTruncateLine = { 'Blue' },
-    LspSagaCodeActionContent      = { 'Green' },
-    LspSagaHoverBorder            = { 'Green' },
-    LspSagaDocTruncateLine        = { 'Green' },
-    LspSagaSignatureHelpBorder    = { 'Green' },
-    LspSagaShTruncateLine         = { 'Green' },
-    LspSagaDefPreviewBorder       = { 'Purple' },
     DefinitionIcon                = { 'Purple' },
-    LspLinesDiagBorder            = { 'Cyan' },
-    LineDiagTuncateLine           = { 'Cyan' },
-    LspSagaAutoPreview            = { 'Blue' },
-    LspSagaFinderSelection        = { 'Fg' },
+    DefinitionCount               = { 'Grey' },
+
+    ProviderTruncateLine = {'Grey'},
+
+    -- DiagnosticTruncateLine = { 'Grey' },
     DiagnosticWarning             = { 'DiagnosticWarn' },
     DiagnosticInformation         = { 'DiagnosticInfo' },
+    LspSagaDiagnosticBorder       = { fg = palette.bg2, bg = palette.bg2 },
+    LspSagaDiagnosticHeader       = { fg = palette.yellow, bg=palette.none, style='bold' },
+    LspSagaDiagnosticTruncateLine = { 'Grey' },
+    -- LspLinesDiagBorder            = { 'Cyan' },
+    -- LineDiagTuncateLine           = { 'Cyan' },
+
+    LspSagaCodeActionTitle        = { fg = palette.blue, bg = palette.none, style = 'bold' },
+    LspSagaCodeActionBorder       = { fg=palette.bg2, bg=palette.bg2 },
+    LspSagaCodeActionTruncateLine = { 'Blue' },
+    LspSagaCodeActionContent      = { 'Green' },
+
+    LspSagaRenameBorder           = {fg=palette.blue, bg=palette.bg2},
+    LspSagaRenamePromptPrefix     = { 'Purple' },
+
+    LspSagaFinderSelection        = { fg=palette.blue },
+    LspSagaLspFinderBorder        = { fg=palette.blue, bg = palette.bg2},
+    LspSagaAutoPreview            = { fg=palette.blue, bg = palette.bg2},
+
+    -- Doc
+    LspSagaHoverBorder            = { fg=palette.bg2, bg=palette.bg2 },
+    LspSagaDocTruncateLine        = { 'Green' },
+
+    LspSagaSignatureHelpBorder    = { 'Green' },
+    LspSagaShTruncateLine         = { 'Green' },
+
     ReferencesCount               = { 'Grey' },
-    DefinitionCount               = { 'Grey' },
     TargetFileName                = { 'Grey' },
 }
 

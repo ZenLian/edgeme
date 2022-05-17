@@ -478,46 +478,46 @@ M.cmp = {
 
 -- glepnir/lspsaga.nvim
 M.lspsaga = {
-    LspFloatWinNormal = { bg=palette.bg2 },
-    LspFloatWinBorder             = { fg = palette.bg2, bg = palette.bg2 },
+    LspFloatWinNormal = { bg = palette.bg2 },
+    LspFloatWinBorder = { fg = palette.bg2, bg = palette.bg2 },
 
-    LspSagaDefPreviewBorder       = { fg = palette.bg2, bg = palette.bg2 },
-    DefinitionPreviewTitle        = { fg = palette.purple, bg = palette.none, style = 'bold' },
-    DefinitionIcon                = { 'Purple' },
-    DefinitionCount               = { 'Grey' },
+    LspSagaDefPreviewBorder = { fg = palette.bg2, bg = palette.bg2 },
+    DefinitionPreviewTitle  = { fg = palette.purple, bg = palette.none, style = 'bold' },
+    DefinitionIcon          = { 'Purple' },
+    DefinitionCount         = { 'Grey' },
 
-    ProviderTruncateLine = {'Grey'},
+    ProviderTruncateLine = { 'Grey' },
 
     -- DiagnosticTruncateLine = { 'Grey' },
     DiagnosticWarning             = { 'DiagnosticWarn' },
     DiagnosticInformation         = { 'DiagnosticInfo' },
     LspSagaDiagnosticBorder       = { fg = palette.bg2, bg = palette.bg2 },
-    LspSagaDiagnosticHeader       = { fg = palette.yellow, bg=palette.none, style='bold' },
+    LspSagaDiagnosticHeader       = { fg = palette.yellow, bg = palette.none, style = 'bold' },
     LspSagaDiagnosticTruncateLine = { 'Grey' },
     -- LspLinesDiagBorder            = { 'Cyan' },
     -- LineDiagTuncateLine           = { 'Cyan' },
 
     LspSagaCodeActionTitle        = { fg = palette.blue, bg = palette.none, style = 'bold' },
-    LspSagaCodeActionBorder       = { fg=palette.bg2, bg=palette.bg2 },
+    LspSagaCodeActionBorder       = { fg = palette.bg2, bg = palette.bg2 },
     LspSagaCodeActionTruncateLine = { 'Blue' },
     LspSagaCodeActionContent      = { 'Green' },
 
-    LspSagaRenameBorder           = {fg=palette.blue, bg=palette.bg2},
-    LspSagaRenamePromptPrefix     = { 'Purple' },
+    LspSagaRenameBorder       = { fg = palette.blue, bg = palette.bg2 },
+    LspSagaRenamePromptPrefix = { 'Purple' },
 
-    LspSagaFinderSelection        = { fg=palette.blue },
-    LspSagaLspFinderBorder        = { fg=palette.blue, bg = palette.bg2},
-    LspSagaAutoPreview            = { fg=palette.blue, bg = palette.bg2},
+    LspSagaFinderSelection = { fg = palette.blue },
+    LspSagaLspFinderBorder = { fg = palette.blue, bg = palette.bg2 },
+    LspSagaAutoPreview     = { fg = palette.blue, bg = palette.bg2 },
 
     -- Doc
-    LspSagaHoverBorder            = { fg=palette.bg2, bg=palette.bg2 },
-    LspSagaDocTruncateLine        = { 'Green' },
+    LspSagaHoverBorder     = { fg = palette.bg2, bg = palette.bg2 },
+    LspSagaDocTruncateLine = { 'Green' },
 
-    LspSagaSignatureHelpBorder    = { 'Green' },
-    LspSagaShTruncateLine         = { 'Green' },
+    LspSagaSignatureHelpBorder = { 'Green' },
+    LspSagaShTruncateLine      = { 'Green' },
 
-    ReferencesCount               = { 'Grey' },
-    TargetFileName                = { 'Grey' },
+    ReferencesCount = { 'Grey' },
+    TargetFileName  = { 'Grey' },
 }
 
 --
@@ -527,6 +527,30 @@ M.trouble = {
     TroubleText   = { 'Fg' },
     TroubleSource = { 'Grey' },
     TroubleCode   = { 'Grey' },
+}
+
+-- rcarriga/nvim-notify
+M.notify = {
+    NotifyERRORBorder = { fg = palette.red },
+    NotifyERRORIcon   = { fg = palette.red },
+    NotifyERRORTitle  = { fg = palette.red },
+    NotifyWARNBorder  = { fg = palette.yellow }, -- TODO maybe deeper
+    NotifyWARNIcon    = { fg = palette.yellow },
+    NotifyWARNTitle   = { fg = palette.yellow },
+    NotifyINFOBorder  = { fg = palette.green },
+    NotifyINFOIcon    = { fg = palette.green },
+    NotifyINFOTitle   = { fg = palette.green },
+    NotifyDEBUGBorder = { fg = palette.grey },
+    NotifyDEBUGIcon   = { fg = palette.grey },
+    NotifyDEBUGTitle  = { fg = palette.grey },
+    NotifyTRACEBorder = { fg = palette.purple },
+    NotifyTRACEIcon   = { fg = palette.purple },
+    NotifyTRACETitle  = { fg = palette.purple },
+    NotifyERRORBody   = { 'Normal' },
+    NotifyWARNBody    = { 'Normal' },
+    NotifyINFOBody    = { 'Normal' },
+    NotifyDEBUGBody   = { 'Normal' },
+    NotifyTRACEBody   = { 'Normal' },
 }
 
 return M

@@ -476,50 +476,6 @@ M.cmp = {
     CmpItemKindTypeParameter = { 'Yellow' },
 }
 
--- glepnir/lspsaga.nvim
-M.lspsaga = {
-    LspFloatWinNormal = { bg = palette.bg2 },
-    LspFloatWinBorder = { fg = palette.bg2, bg = palette.bg2 },
-
-    LspSagaDefPreviewBorder = { fg = palette.bg2, bg = palette.bg2 },
-    DefinitionPreviewTitle  = { fg = palette.purple, bg = palette.none, style = 'bold' },
-    DefinitionIcon          = { 'Purple' },
-    DefinitionCount         = { 'Grey' },
-
-    ProviderTruncateLine = { 'Grey' },
-
-    -- DiagnosticTruncateLine = { 'Grey' },
-    DiagnosticWarning             = { 'DiagnosticWarn' },
-    DiagnosticInformation         = { 'DiagnosticInfo' },
-    LspSagaDiagnosticBorder       = { fg = palette.bg2, bg = palette.bg2 },
-    LspSagaDiagnosticHeader       = { fg = palette.yellow, bg = palette.none, style = 'bold' },
-    LspSagaDiagnosticTruncateLine = { 'Grey' },
-    -- LspLinesDiagBorder            = { 'Cyan' },
-    -- LineDiagTuncateLine           = { 'Cyan' },
-
-    LspSagaCodeActionTitle        = { fg = palette.blue, bg = palette.none, style = 'bold' },
-    LspSagaCodeActionBorder       = { fg = palette.bg2, bg = palette.bg2 },
-    LspSagaCodeActionTruncateLine = { 'Blue' },
-    LspSagaCodeActionContent      = { 'Green' },
-
-    LspSagaRenameBorder       = { fg = palette.blue, bg = palette.bg2 },
-    LspSagaRenamePromptPrefix = { 'Purple' },
-
-    LspSagaFinderSelection = { fg = palette.blue },
-    LspSagaLspFinderBorder = { fg = palette.blue, bg = palette.bg2 },
-    LspSagaAutoPreview     = { fg = palette.blue, bg = palette.bg2 },
-
-    -- Doc
-    LspSagaHoverBorder     = { fg = palette.bg2, bg = palette.bg2 },
-    LspSagaDocTruncateLine = { 'Green' },
-
-    LspSagaSignatureHelpBorder = { 'Green' },
-    LspSagaShTruncateLine      = { 'Green' },
-
-    ReferencesCount = { 'Grey' },
-    TargetFileName  = { 'Grey' },
-}
-
 --
 -- folke/trouble.nvim
 --
@@ -534,7 +490,7 @@ M.notify = {
     NotifyERRORBorder = { fg = palette.red },
     NotifyERRORIcon   = { fg = palette.red },
     NotifyERRORTitle  = { fg = palette.red },
-    NotifyWARNBorder  = { fg = palette.yellow }, -- TODO maybe deeper
+    NotifyWARNBorder  = { fg = palette.yellow },
     NotifyWARNIcon    = { fg = palette.yellow },
     NotifyWARNTitle   = { fg = palette.yellow },
     NotifyINFOBorder  = { fg = palette.green },

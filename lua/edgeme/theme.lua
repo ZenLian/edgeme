@@ -75,7 +75,8 @@ M.base = {
 
     CurrentWord = { fg = palette.none, bg = palette.bg2 },
 
-    -- Terminal = { fg = palette.fg, bg = palette.bg0 },
+    Terminal = { fg = palette.fg, bg = palette.black },
+    TerminalBorder = { fg = palette.black, bg = palette.black}
 }
 
 if not config.diagnostic.colored_virtual_text then
@@ -125,7 +126,7 @@ M.builtin = {
     Normal           = { fg = palette.fg, bg = palette.bg0 },
     NormalFloat      = { fg = palette.fg, bg = palette.bg2 },
     -- NormalNC = { fg = palette.fg, bg = palette.bg0 },
-    FloatBorder      = { fg = palette.grey },
+    FloatBorder      = { fg = palette.grey, bg = palette.bg2 },
     Pmenu            = { fg = palette.fg, bg = palette.bg2 },
     PmenuSel         = { fg = palette.bg0, bg = palette.bg_blue },
     PmenuSbar        = { fg = palette.none, bg = palette.bg2 },
@@ -363,19 +364,19 @@ M.treesitter = {
 }
 
 M.telescope = {
-    TelescopeNormal        = { fg = palette.fg, bg = palette.bg2 },
+    TelescopeNormal        = { fg = palette.fg, bg = palette.bg3 },
     -- TelescopeBorder = { 'Grey' },
     TelescopePromptPrefix  = { 'Purple' },
     TelescopePromptNormal  = { fg = palette.fg, bg = palette.bg1 },
     TelescopePromptBorder  = { fg = palette.bg1, bg = palette.bg1 },
-    TelescopePromptTitle   = { fg = palette.grey },
+    TelescopePromptTitle   = { fg = palette.red },
     TelescopePromptCounter = { 'Grey' },
     TelescopeSelection     = { bg = palette.diff_green },
     TelescopeMatching      = { fg = palette.blue, bg = palette.none, style = 'bold' },
-    TelescopeResultsBorder = { fg = palette.bg2, bg = palette.bg2 },
+    TelescopeResultsBorder = { fg = palette.bg3, bg = palette.bg3 },
     TelescopeResultsTitle  = { fg = palette.grey },
     TelescopePreviewNormal = { fg = palette.fg, bg = palette.bg3 },
-    TelescopePreviewBorder = { fg = palette.bg3, bg = palette.bg3 },
+    TelescopePreviewBorder = { fg = palette.grey, bg = palette.bg3 },
     TelescopePreviewTitle  = { fg = palette.grey },
 }
 

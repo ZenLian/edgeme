@@ -19,7 +19,7 @@ require('edgeme').setup {
     -- choose color styles, depends on vim.o.background
     -- dark theme: 'default', 'aura', 'neon'
     -- light theme: 'default'
-    style = 'default', -- only support 'default' or 'aura'
+    style = 'default',
     -- turn italic on/off
     italic = {
         enable = true, -- set to false will disable all italics below

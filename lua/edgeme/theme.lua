@@ -76,7 +76,7 @@ M.base = {
     CurrentWord = { fg = palette.none, bg = palette.bg2 },
 
     Terminal = { fg = palette.fg, bg = palette.black },
-    TerminalBorder = { fg = palette.black, bg = palette.black}
+    TerminalBorder = { fg = palette.black, bg = palette.black }
 }
 
 if not config.diagnostic.colored_virtual_text then
@@ -433,7 +433,7 @@ M.whichkey = {
 
 -- p00f/nvim-ts-rainbow
 M.rainbow = {
-    rainbowcol1 = { 'Fg' },
+    rainbowcol1 = { 'Red' },
     rainbowcol2 = { 'Yellow' },
     rainbowcol3 = { 'Green' },
     rainbowcol4 = { 'Cyan' },

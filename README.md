@@ -3,6 +3,10 @@
 A lua port of [edge](https://github.com/sainnhe/edge) colorscheme for
 neovim only.
 
+![screenshot](./assets/screenshot.png)
+
+![telescope](./assets/telescope.png)
+
 ## Prerequisites
 
 - neovim >= v0.5.0
@@ -40,4 +44,3 @@ require('edgeme').setup {
 
 - only support true color terminals
 - supported plugins are limited, check [theme.lua](./lua/edgeme/theme.lua)
-
